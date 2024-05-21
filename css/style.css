@@ -1,0 +1,76 @@
+/* linea de comentario */
+/* para aplicasr estilos trabajamos
+propiedad: valor; */
+
+body{
+
+   background-color: #413e3e;
+
+}
+.main-article{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   gap: 10px;
+}
+
+article section:first-child p
+{
+   font-size: 1rem;
+}
+
+article section:last-child p
+{
+   font-size: 1rem;
+
+}
+
+.main-header nav{
+   margin: 0 auto;
+   
+}
+.main-header nav ul {
+   display: grid;
+   justify-content: center;
+
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(1, 1fr);
+text-align: center;
+
+}
+.main-header nav ul a {
+
+   list-style-type: none;
+   text-decoration: none;
+   color: white;
+   
+}
+.main-header img {
+   width: 50vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+   .main-header nav ul {
+      display: flex;
+      font-size: 10px;
+      gap: 10px;
+   }
+}
+footer {
+   color: white;
+}
+
+.contact-logos {
+   display: flex;
+   justify-content: space-around;
+}
+.contact-logos img {
+
+   width: 3vw;
+}
