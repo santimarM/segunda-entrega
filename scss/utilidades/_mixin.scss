@@ -1,0 +1,10 @@
+// mixin con parametros
+@mixin transition($properties...) {
+    transition: $properties;
+  }
+  
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

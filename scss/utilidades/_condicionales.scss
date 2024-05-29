@@ -1,0 +1,17 @@
+
+
+@mixin condicion ($color-bg){
+    background-color: $color-bg;
+
+    //declaro condicion
+    @if $color-bg == orange{
+        border: 1px solid black;
+    }@else {
+        border: 2px solid white;
+    }
+
+}
+
+.ejemplo-condicion{
+    @include condicion(orange);
+}
