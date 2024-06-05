@@ -32,3 +32,11 @@ body::before {
 footer{
  text-align: center; 
 }
+.section1
+{
+  background-color: rgb(193, 152, 232);
+}
+.section2
+{
+  background-color: rgb(132, 0, 255);
+}
